@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Koku Tahmin Oyunu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>✨ Koku Tahmin Oyunu ✨</h1>
+    <p class="question">İçeriğinde vişne, yasemin ve paçuli olan romantik ve meyvemsi kokulu parfümümüz hangisi?</p>
+    <ul class="options">
+      <li onclick="checkAnswer(this)">A) Aérien</li>
+      <li onclick="checkAnswer(this)">B) Idylle</li>
+      <li onclick="checkAnswer(this)">C) Ambre</li>
+      <li onclick="checkAnswer(this)">D) Fortune</li>
+    </ul>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
